@@ -1,8 +1,8 @@
 {
-  "name": "Start on Heroku: Node.js",
-  "description": "A barebones Node.js app using Express 4",
-  "repository": "https://github.com/heroku/node-js-getting-started",
-  "logo": "http://node-js-sample.herokuapp.com/node.svg",
-  "keywords": ["node", "express", "heroku"],
-  "image": "heroku/nodejs"
+    "name": "Arti Logistics",
+    "description": "Arti Logistics App",
+    "repository": "https://github.com/YovkoGospodinov/ArtiLogistics",
+    "logo": "",
+    "keywords": ["Arti Logistics", "Logistics", "Transport"],
+    "image": ""
 }
