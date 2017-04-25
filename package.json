@@ -10,8 +10,20 @@
     "start": "node index.js"
   },
   "dependencies": {
+    "bootstrap": "^3.3.7",
+    "browser-sync": "^2.18.8",
     "ejs": "2.5.6",
-    "express": "4.15.2"
+    "express": "4.15.2",
+    "font-awesome": "^4.7.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.0.4",
+    "gulp-header": "^1.8.8",
+    "gulp-less": "^3.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.1.2",
+    "jquery": "^3.2.1",
+    "magnific-popup": "^1.1.0",
+    "scrollreveal": "^3.3.5"
   },
   "repository": {
     "type": "git",
