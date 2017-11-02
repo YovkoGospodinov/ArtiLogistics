@@ -362,3 +362,7 @@ img::selection {
 img::-moz-selection {
     background: 0 0
 }
+
+.language-flag {
+    margin-top: -1px;
+}
