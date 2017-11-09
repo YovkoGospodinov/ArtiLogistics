@@ -1,7 +1,7 @@
 {
-    "name": "node-js-getting-started",
+    "name": "arti-logistics-app",
     "version": "0.2.6",
-    "description": "A sample Node.js app using Express 4",
+    "description": "Logistics",
     "engines": {
         "node": "6.10.2"
     },
@@ -18,10 +18,9 @@
         "url": "https://github.com/YovkoGospodinov/ArtiLogistics"
     },
     "keywords": [
-        "ArtiLogistics",
-        "Arti",
-        "Logistics",
-        "Transport"
+        "node",
+        "heroku",
+        "express"
     ],
     "license": "MIT"
 }
