@@ -1,7 +1,7 @@
 {
     "name": "arti-logistics-app",
     "version": "0.2.6",
-    "description": "Logistics",
+    "description": "ArtiLogistics",
     "engines": {
         "node": "6.10.2"
     },
@@ -18,9 +18,9 @@
         "url": "https://github.com/YovkoGospodinov/ArtiLogistics"
     },
     "keywords": [
-        "node",
-        "heroku",
-        "express"
+        "ArtiLogistics",
+        "Logistics",
+        "Transport"
     ],
     "license": "MIT"
 }
