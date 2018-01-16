@@ -17,6 +17,14 @@ app.get('/en', function(request, response) {
     response.render('pages/index_en');
 });
 
+app.get('/contacts-bg', function(request, response) {
+    response.render('pages/contacts_bg');
+});
+
+app.get('/contacts-en', function(request, response) {
+    response.render('pages/contacts_en');
+});
+
 app.listen(app.get('port'), function() {
     console.log('Node app is running on port', app.get('port'));
 });

@@ -269,7 +269,7 @@ ul.banner-social-buttons {
 }
 
 footer {
-    padding: 50px 0
+    padding: 20px 0
 }
 
 footer p {
@@ -299,4 +299,13 @@ img::-moz-selection {
 
 body {
     -webkit-tap-highlight-color: rgba(255, 255, 255, .2)
+}
+
+.portfolio-grid-label {
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+.contacts-web {
+    justify-content: center
 }
