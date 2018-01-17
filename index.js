@@ -25,6 +25,10 @@ app.get('/contacts-en', function(request, response) {
     response.render('pages/contacts_en');
 });
 
+app.get('/services-bg', function(request, response) {
+    response.render('pages/services_bg');
+});
+
 app.listen(app.get('port'), function() {
     console.log('Node app is running on port', app.get('port'));
 });
