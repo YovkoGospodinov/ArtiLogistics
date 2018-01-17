@@ -309,3 +309,13 @@ body {
 .contacts-web {
     justify-content: center
 }
+
+@media (max-width:767px) {
+    .portfolio-item {
+        margin-bottom: 75px
+    }
+    .portfolio-grid-label {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
