@@ -319,3 +319,12 @@ body {
         margin-bottom: 5px;
     }
 }
+
+#courier-content {
+    display: block
+}
+
+#forwarding-content,
+#road-transport-content {
+    display: none
+}

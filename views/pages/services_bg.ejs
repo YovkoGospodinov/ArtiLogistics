@@ -52,12 +52,12 @@
         </div>
         <div class="container">
             <div class="row">
-                <a class="btn btn-outline-secondary col-md-6 col-lg-4" href="#">Градски куриер</a>
-                <a class="btn btn-outline-secondary col-md-6 col-lg-4" href="#">Спедиторски услуги</a>
-                <a class="btn btn-outline-secondary col-md-6 col-lg-4" href="#">Автомобилен транспорт</a>
+                <a class="btn btn-outline-secondary col-md-6 col-lg-4" id="courier-btn" onclick="showCourierContent()">Градски куриер</a>
+                <a class="btn btn-outline-secondary col-md-6 col-lg-4" id="forwarding-btn" onclick="showForwardingContent()">Спедиторски услуги</a>
+                <a class="btn btn-outline-secondary col-md-6 col-lg-4" id="road-transport-btn" onclick="showroadTransportContent()">Автомобилен транспорт</a>
             </div>
         </div>
-        <div class="container" id="courier">
+        <div class="container" id="courier-content">
             <p class="lead">Градски куриер</p>
             <div class="row">
                 <div class="col-md-8">Име</div>
@@ -75,6 +75,12 @@
                 <div class="col-md-8">150 минути</div>
                 <div class="col-md-4">3.00лв.</div>
             </div>
+        </div>
+        <div class="container" id="forwarding-content">
+            <p class="lead">Спедиторски услуги</p>
+        </div>
+        <div class="container" id="road-transport-content">
+            <p class="lead">Автомобилен транспорт</p>
         </div>
     </section>
 
