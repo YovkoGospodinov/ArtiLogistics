@@ -320,11 +320,10 @@ body {
     }
 }
 
-#courier-content {
+.service-visible {
     display: block
 }
 
-#forwarding-content,
-#road-transport-content {
+.service-invisible {
     display: none
 }
