@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <% include ../partials/header_bg.ejs %>
+    <% include ../partials/header_en.ejs %>
 </head>
 
 <body id="page-top">
@@ -10,8 +10,8 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
         <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="/">
-                <i><img id="logo" src="/img/logo.png"></i> <span class="light">Арти Логистикс</span>
+            <a class="navbar-brand js-scroll-trigger" href="/en">
+                <i><img id="logo" src="/img/logo.png"></i> <span class="light">Arti Logistics</span>
             </a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                   Menu
@@ -20,26 +20,24 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="/">Начало</a>
+                        <a class="nav-link js-scroll-trigger" href="/en">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#">Услуги</a>
+                        <a class="nav-link js-scroll-trigger" href="#">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="/#about">За Нас</a>
+                        <a class="nav-link js-scroll-trigger" href="/en#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="/contacts-bg">Контакти</a>
+                        <a class="nav-link js-scroll-trigger" href="/contacts-en">Contact</a>
                     </li>
                     <li>
-                        <a class="language-flag" href="/services-en"><img id="en-flag" src="/img/en-flag.png"></a>
+                        <a class="language-flag" href="/services-bg"><img id="en-flag" src="/img/bg-flag.png"></a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-
-
 
     <!-- Services Section -->
     <section id="about" class="content-section text-center">
@@ -50,37 +48,39 @@
                 </div>
             </div>
         </div>
-        <div class="container">
-            <div class="row">
-                <a class="btn btn-outline-secondary col-md-6 col-lg-4" id="courier-btn" onclick="showCourierContent()">Градски куриер</a>
-                <a class="btn btn-outline-secondary col-md-6 col-lg-4" id="forwarding-btn" onclick="showForwardingContent()">Спедиторски услуги</a>
-                <a class="btn btn-outline-secondary col-md-6 col-lg-4" id="road-transport-btn" onclick="showroadTransportContent()">Автомобилен транспорт</a>
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs nav-justified">
+            <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#panel1" role="tab">Profile</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#panel2" role="tab">Follow</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#panel3" role="tab">Contact</a>
+            </li>
+        </ul>
+        <!-- Tab panels -->
+        <div class="tab-content card">
+            <!--Panel 1-->
+            <div class="tab-pane fade in show active" id="panel1" role="tabpanel">
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione porro voluptate odit minima.</p>
             </div>
-        </div>
-        <div class="container service-visible" id="courier-content">
-            <p class="lead">Градски куриер</p>
-            <div class="row">
-                <div class="col-md-8">Име</div>
-                <div class="col-md-4">Цена</div>
+            <!--/.Panel 1-->
+            <!--Panel 2-->
+            <div class="tab-pane fade" id="panel2" role="tabpanel">
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione porro voluptate odit minima.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione porro voluptate odit minima.</p>
             </div>
-            <div class="row">
-                <div class="col-md-8">90 минути</div>
-                <div class="col-md-4">5.00лв.</div>
+            <!--/.Panel 2-->
+            <!--Panel 3-->
+            <div class="tab-pane fade" id="panel3" role="tabpanel">
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione porro voluptate odit minima.</p>
             </div>
-            <div class="row">
-                <div class="col-md-8">120 минути</div>
-                <div class="col-md-4">4.00лв.</div>
-            </div>
-            <div class="row">
-                <div class="col-md-8">150 минути</div>
-                <div class="col-md-4">3.00лв.</div>
-            </div>
-        </div>
-        <div class="container service-invisible" id="forwarding-content">
-            <p class="lead">Спедиторски услуги</p>
-        </div>
-        <div class="container service-invisible" id="road-transport-content">
-            <p class="lead">Автомобилен транспорт</p>
+            <!--/.Panel 3-->
         </div>
     </section>
 
@@ -89,7 +89,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4 mb-5 mb-lg-0">
-                    <h4 class="text-uppercase mb-4">Телефон</h4>
+                    <h4 class="text-uppercase mb-4">Phone</h4>
                     <p class="lead mb-0">+359 895 477 825</p>
                 </div>
                 <div class="col-md-4 mb-5 mb-lg-0">
@@ -118,7 +118,7 @@
     <!-- Copyright Section -->
     <div class="copyright py-2 text-center text-white">
         <div class="container">
-            <small>Запазени права &copy; Арти Логистикс ЕООД 2017</small>
+            <small>Copyright &copy; Arti Logistics LTD 2017</small>
         </div>
     </div>
 

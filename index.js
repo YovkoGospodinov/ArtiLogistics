@@ -29,6 +29,11 @@ app.get('/services-bg', function(request, response) {
     response.render('pages/services_bg');
 });
 
+app.get('/services-en', function(request, response) {
+    response.render('pages/services_en');
+});
+
+
 app.listen(app.get('port'), function() {
     console.log('Node app is running on port', app.get('port'));
 });
