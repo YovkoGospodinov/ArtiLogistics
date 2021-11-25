@@ -33,6 +33,14 @@ app.get('/services-en', function(request, response) {
     response.render('pages/services_en');
 });
 
+app.get('/energy-projects-bg', function(request, response) {
+    response.render('pages/energy_projects_bg');
+});
+
+app.get('/energy-projects-en', function(request, response) {
+    response.render('pages/energy_projects_en');
+});
+
 
 app.listen(app.get('port'), function() {
     console.log('Node app is running on port', app.get('port'));
